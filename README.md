@@ -9,3 +9,5 @@ Siswa mampu membuat dan mengakses list, tuple, dan dictionary.
 Siswa bisa memanfaatkan perulangan untuk mengolah data dalam struktur tersebut.
 Siswa siap melanjutkan ke pembuatan program sederhana yang lebih kompleks.
 
+Upload Tugas 
+https://padlet.com/coolrozaq/submission-request/o4ZnXBEqE1LgzNda?section=313766474
