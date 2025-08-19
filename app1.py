@@ -20,7 +20,7 @@ print("-------------------")
 for data in siswa:
     print(f"Nama: {data['nama']}, Nilai: {data['nilai']}")
 
-# Input berulang (bisa sampai 50 data atau lebih)
+# Input berulang
 while True:
     print("\nTambah Data Siswa")
     nama_baru = input("Masukkan nama siswa (atau ketik 'selesai' untuk berhenti): ")
@@ -30,9 +30,9 @@ while True:
 
     siswa.append({"nama": nama_baru, "nilai": nilai_baru})
 
-    # Simpan setiap kali ada penambahan
-    with open("siswa.json", "w") as f:
-        json.dump({"siswa": siswa}, f, indent=4)
+# ✅ Setelah selesai input, simpan semua data ke JSON
+with open("siswa.json", "w") as f:
+    json.dump({"siswa": siswa}, f, indent=4)
 
 # Menampilkan daftar siswa setelah penambahan
 print("\nDaftar Nilai Siswa Terbaru:")
