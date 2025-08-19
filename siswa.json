@@ -1,0 +1,16 @@
+{
+  "siswa": [
+    {
+      "nama": "Andi",
+      "nilai": 85
+    },
+    {
+      "nama": "Budi",
+      "nilai": 90
+    },
+    {
+      "nama": "Citra",
+      "nilai": 78
+    }
+  ]
+}
